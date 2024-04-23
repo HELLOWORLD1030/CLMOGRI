@@ -22,7 +22,7 @@ CLMOGRI also requires the fundamental components commonly used in deep learning.
 ## Performance requirements
 We utilize an Intel CPU 4210, 64GB of memory, and an Nvidia RTX3080 GPU.
 ## Dataset
-please download the dataset in .
+please download the dataset in https://drive.google.com/file/d/1mQMXZkygFRmXO1xnN3COi0932R3vbbxo/view?usp=sharing .
 ## Train
 ```shell
 git clone https://github.com/HELLOWORLD1030/CLMOGRI.git

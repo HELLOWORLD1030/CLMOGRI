@@ -58,13 +58,13 @@ min_count = 5   #单词频率截断
 window_size = 5  #窗口大小
 batch_size = 64  #批大小
 dim = 128  # embedding维度
-iterations = 5  # 循环次数
+iterations = 50  # 循环次数
 initial_lr = 0.001  #learning rate
 cluster_list = []
-for i in range(2,22):
+for i in range(0,22):
     cluster_list.append(f"chr{i + 1}")
 cluster_list.append("chrX")
-cluster_list = ["chr2"]
+# cluster_list = ["chr2"]
 for cluster in cluster_list:
     file = f'../Data/embedding/GM12878/metapath2vec/walk_path/{cluster}.csv'# walk_path路径
     output_file = f'../Data/embedding/GM12878/metapath2vec/metapath2vec_{cluster}_embedding.csv'  #embedding输出路径
